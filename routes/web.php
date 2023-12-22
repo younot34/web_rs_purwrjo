@@ -63,4 +63,4 @@ Route::get('dashboard', [DashboardController::class, 'index'])->middleware('auth
 
 
 Route::resource('berita', BeritaController::class)->middleware('auth');
-Route::resource('create', BeritaController::class)->middleware('auth');
+// Route::resource('create', BeritaController::class)->middleware('auth');

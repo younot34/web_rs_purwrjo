@@ -41,14 +41,14 @@ class BeritaController extends Controller
             'image' => 'required|image',
         ]);
 
-        $berita = $request->all();
+        $input = $request->all();
         if ($image = $request->file('image')){
             $destinationPath = 'image/';
-            $imageName = date('tmd') . "." . $image->getClientOriginalExtension();
+            $imageName = date('Ymd') . "." . $image->getClientOriginalExtension();
             $image->move($destinationPath, $imageName);
-            $berita['image']=$imageName;
+            $input['image']=$imageName;
         }
-        Berita::create($berita);
+        Berita::create($input);
 
         return redirect('berita')->with('message','Data berhasil ditambah');
     }
