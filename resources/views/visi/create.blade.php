@@ -1,14 +1,14 @@
 @extends('layouts.app')
 
-@section('title', 'data berita')
+@section('title', 'data visi & misi')
 
 @section('content')
 
 <div class="container">
-    <a href="/dabers" class="btn btn-primary mb-3">Batal</a>
+    <a href="/visis" class="btn btn-primary mb-3">Batal</a>
     <div class="row">
         <div class="col-md-12">
-            <form action="{{route('dabers.store')}}" method="POST" enctype="multipart/form-data">
+            <form action="{{route('visis.store')}}" method="POST" enctype="multipart/form-data">
                 @csrf
                 <div class="form-grup mb-3">
                     <label for="title">Judul</label>

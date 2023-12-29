@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Berita;
+use App\Models\karirs;
 use Illuminate\Http\Request;
 
-class BeritaController extends Controller
+class karirController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,7 +14,7 @@ class BeritaController extends Controller
      */
     public function index()
     {
-        return view('slide.index');
+        //
     }
 
     /**
@@ -24,7 +24,7 @@ class BeritaController extends Controller
      */
     public function create()
     {
-        return view('slide.create');
+        //
     }
 
     /**
@@ -35,31 +35,16 @@ class BeritaController extends Controller
      */
     public function store(Request $request)
     {
-        $request->validate([
-            'title' => 'required',
-            'description' => 'required',
-            'image' => 'required|image',
-        ]);
-
-        $input = $request->all();
-        if ($image = $request->file('image')){
-            $destinationPath = 'image/';
-            $imageName = date('Ymd') . "." . $image->getClientOriginalExtension();
-            $image->move($destinationPath, $imageName);
-            $input['image']=$imageName;
-        }
-        Berita::create($input);
-
-        return redirect('berita')->with('message','Data berhasil ditambah');
+        //
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Berita  $berita
+     * @param  \App\Models\karirs  $karirs
      * @return \Illuminate\Http\Response
      */
-    public function show(Berita $berita)
+    public function show(karirs $karirs)
     {
         //
     }
@@ -67,10 +52,10 @@ class BeritaController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Berita  $berita
+     * @param  \App\Models\karirs  $karirs
      * @return \Illuminate\Http\Response
      */
-    public function edit(Berita $berita)
+    public function edit(karirs $karirs)
     {
         //
     }
@@ -79,10 +64,10 @@ class BeritaController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Berita  $berita
+     * @param  \App\Models\karirs  $karirs
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Berita $berita)
+    public function update(Request $request, karirs $karirs)
     {
         //
     }
@@ -90,10 +75,10 @@ class BeritaController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Berita  $berita
+     * @param  \App\Models\karirs  $karirs
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Berita $berita)
+    public function destroy(karirs $karirs)
     {
         //
     }

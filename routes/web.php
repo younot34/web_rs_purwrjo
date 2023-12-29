@@ -1,9 +1,12 @@
 <?php
 
 use App\Http\Controllers\AuthController;
-use App\Http\Controllers\BeritaController;
+use App\Http\Controllers\DabersController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\KerjasamaController;
+use App\Http\Controllers\SejarahController;
+use App\Http\Controllers\VisiController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -62,5 +65,7 @@ Route::post('/login', [AuthController::class, 'authenticated']);
 Route::get('dashboard', [DashboardController::class, 'index'])->middleware('auth');
 
 
-Route::resource('berita', BeritaController::class)->middleware('auth');
-// Route::resource('create', BeritaController::class)->middleware('auth');
+Route::resource('dabers', DabersController::class)->middleware('auth');
+Route::resource('visis', VisiController::class)->middleware('auth');
+Route::resource('kerjas', KerjasamaController::class)->middleware('auth');
+Route::resource('sejarahs', SejarahController::class)->middleware('auth');

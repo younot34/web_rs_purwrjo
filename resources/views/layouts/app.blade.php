@@ -66,125 +66,164 @@
                 </a>
                 <ul class="nav nav-treeview">
                 <li class="nav-item">
-                    <a href="berita" class="nav-link">
+                    <a href="dabers" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>berita</p>
                     </a>
                 </li>
+
                 <li class="nav-item">
                     <a href="#" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Layanan Unggulan</p>
                     </a>
                 </li>
+
+
                 <li class="nav-item">
-                    <a href="#" class="nav-link">
+                    <a href="sejarahs" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Sejarah</p>
                     </a>
                 </li>
+
+
                 <li class="nav-item">
-                    <a href="#" class="nav-link">
+                    <a href="visis" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Visi & Misi</p>
                     </a>
                 </li>
+
+
                 <li class="nav-item">
                     <a href="#" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Direksi</p>
                     </a>
                 </li>
+
+
                 <li class="nav-item">
-                    <a href="#" class="nav-link">
+                    <a href="kerjas" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Kerjasama</p>
                     </a>
                 </li>
+
+
                 <li class="nav-item">
                     <a href="#" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Klinik Spesialis dan departemen</p>
                     </a>
                 </li>
+
+
                 <li class="nav-item">
                     <a href="#" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Layanan</p>
                     </a>
                 </li>
+
+
                 <li class="nav-item">
                     <a href="#" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Rawat Jalan</p>
                     </a>
                 </li>
+
+
                 <li class="nav-item">
                     <a href="#" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Rawat Inap</p>
                     </a>
                 </li>
+
+
                 <li class="nav-item">
                     <a href="#" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Radiologi</p>
                     </a>
                 </li>
+
+
                 <li class="nav-item">
                     <a href="#" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Rencana Kerja</p>
                     </a>
                 </li>
+
+
                 <li class="nav-item">
                     <a href="#" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Talk Show</p>
                     </a>
                 </li>
+
+
                 <li class="nav-item">
                     <a href="#" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Jadwal Dolter</p>
                     </a>
                 </li>
+
+
                 <li class="nav-item">
                     <a href="#" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Jadwal Poli</p>
                     </a>
                 </li>
+
+
                 <li class="nav-item">
                     <a href="#" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>MCU</p>
                     </a>
                 </li>
+
+
                 <li class="nav-item">
                     <a href="#" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Labortorium</p>
                     </a>
                 </li>
+
+
                 <li class="nav-item">
                     <a href="#" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Gizi</p>
                     </a>
                 </li>
+
+
                 <li class="nav-item">
                     <a href="#" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Fasilitas</p>
                     </a>
                 </li>
+
+
                 <li class="nav-item">
                     <a href="#" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Farmasi</p>
                     </a>
                 </li>
+
+
                 <li class="nav-item">
                     <a href="#" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>

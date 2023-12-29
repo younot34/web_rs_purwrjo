@@ -1,11 +1,11 @@
 @extends('layouts.app')
 
-@section('title', 'data berita')
+@section('title', 'data Partner')
 
 @section('content')
 
 <div class="container">
-    <a href="dabers/create" class="btn btn-primary">Tambah Data</a>
+    <a href="kerjas/create" class="btn btn-primary">Tambah Data</a>
     @if ($message = Session::get('message'))
         <div class="alert alert-success">
             <strong>Berhasil</strong>
@@ -27,16 +27,16 @@
                 @php
                     $i = 1
                 @endphp
-                @foreach ($dabers as $daber)
+                @foreach ($kerjas as $kerja)
                     <td>{{ $i++ }}</td>
-                    <td>{{$daber->title}}</td>
-                    <td>{{$daber->description}}</td>
+                    <td>{{$kerja->title}}</td>
+                    <td>{{$kerja->description}}</td>
                     <td>
-                        <img src="/image/{{$daber->image}}" alt="" class="img fluid" width="90">
+                        <img src="/image/{{$kerja->image}}" alt="" class="img fluid" width="90">
                     </td>
                     <td>
-                        <a href="{{route('dabers.edit',$daber->id)}}" class="btn btn-warning">Edit</a>
-                        <form action="{{route('dabers.destroy', $daber->id)}}" method="POST">
+                        <a href="{{route('kerjas.edit',$kerja->id)}}" class="btn btn-warning">Edit</a>
+                        <form action="{{route('kerjas.destroy', $kerja->id)}}" method="POST">
                             @csrf
                             @method('DELETE')
                             <button type="submit" class="btn btn-danger">Hapus</button>
